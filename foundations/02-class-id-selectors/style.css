@@ -1,0 +1,20 @@
+.class {
+  background-color: rgb(244, 124, 144);
+  font-family: Verdana, DejaVu Sans, sans-serif;
+}
+
+#idone {
+  color: blue;
+  font-size: 36px;
+}
+
+.class,
+.classtwo {
+  font-size: 24px;
+}
+
+#idtwo {
+  background-color: rgb(114, 240, 143);
+  font-size: 24px;
+  font-weight: bold;
+}
