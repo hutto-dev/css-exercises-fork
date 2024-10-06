@@ -5,3 +5,44 @@
   text-align: center;
   font-size: 20px;
 }
+
+
+
+
+/* Types of CSS styles
+1. Styling Descendant combinator - .single .space
+
+2. Styling 2 or classes - .one, .comma, .two
+
+Other ways for the above solution (which is descendant combinator
+div p
+div .text
+.container p
+
+
+Grouping selectors - styling 2 different selectors
+
+<button class="clickme">Click Me!</button>
+<button class="noclickme">No, Click Me!</button>
+
+.clickme,
+.noclickme {
+  font-size: 28px;
+  font-family: helvetica, "Times New Roman", sans-serif;
+}
+
+
+Chaining selectors - styling the 1st image
+ <div>
+      <img class="avatar proportioned" src="./images/pexels-katho-mutodo-8434791.jpg" alt="Woman with glasses">
+      <img class="avatar distorted" src="./images/pexels-andrea-piacquadio-3777931.jpg" alt="Man with surprised expression">
+    </div>
+
+.avatar.proportioned {
+  width: 300px;
+  height: auto;
+}
+
+Descendant combinator - .single .space
+<div class="single">
+  <p class="space">
